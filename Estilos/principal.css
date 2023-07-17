@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GaramondBI';
+    src: url("../Fontes/AGaramondPro-BoldItalic.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GaramondB';
+    src: url("../Fontes/AGaramondPro-Bold.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GaramondI';
+    src: url("../Fontes/AGaramondPro-Italic.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GaramondR';
+    src: url("../Fontes/AGaramondPro-Regular.otf") format('opentype');
+    font-weight: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --fundo: #a2ae86;
+    --topo: #697449;
+    --link: #788B4B;
+    --lhover: #79836d;
+    --cor4: #94DBFF;
+    --cor5: #1E516B;
+    --fontBI: 'GaramondBI'
+}
+
+
+body, html {
+    background-color: var(--fundo);
+}
+
+header {
+    background-color: var(--topo);
+    color: #252427;
+    padding: 30px;
+    text-align: center;
+    width: 98,5vw;
+}
+
+header > h1 {
+    padding: 5px;
+    font-family: var(--fontBI);
+    font-variant: small-caps;
+}
+
+header > p {
+    padding: 5px;
+    font-family: 'GaramondR';
+    font-size: 1.25em;
+}
+
+header > h1 > a {
+    text-decoration: none;
+    color: #252427;
+    font-family: var(--fontBI);
+}
+
+nav {
+    text-align: center;
+    background-color: var(--topo);
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--link);
+}
+
+nav > a:hover {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--lhover);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.300);
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: white;
+    max-width: 750px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > p > a {
+    text-decoration: none;
+    color: black;
+}
