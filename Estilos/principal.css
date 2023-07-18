@@ -35,11 +35,8 @@
     --topo: #697449;
     --link: #788B4B;
     --lhover: #79836d;
-    --cor4: #94DBFF;
-    --cor5: #1E516B;
     --fontBI: 'GaramondBI'
 }
-
 
 body, html {
     background-color: var(--fundo);
@@ -47,7 +44,7 @@ body, html {
 
 header {
     background-color: var(--topo);
-    color: #252427;
+    color: white;
     padding: 30px;
     text-align: center;
     width: 98,5vw;
@@ -67,7 +64,7 @@ header > p {
 
 header > h1 > a {
     text-decoration: none;
-    color: #252427;
+    color: white;
     font-family: var(--fontBI);
 }
 
@@ -103,11 +100,26 @@ main {
     padding: 10px;
 }
 
-main > h1 {
+table {
+    width: 750px;
+    margin: auto;
+    padding: 10px;
     text-align: center;
 }
 
-main > p > a {
-    text-decoration: none;
+td {
+    max-width: 70px;
+    margin: 1px;
+    padding: 10px;  
+}
+
+td > p > a {
     color: black;
+    text-decoration: none;
+}
+
+table > caption > h1 {
+    text-align: center;
+    font-family: var(--fontBI);
+    font-variant: small-caps;
 }
