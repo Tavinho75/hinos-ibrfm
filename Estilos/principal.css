@@ -121,14 +121,14 @@ main > ol > li{
 }
 
 table {
-    width: 750px;
+    width: 650px;
     margin: auto;
     padding: 10px;
     text-align: center;
 }
 
 td {
-    max-width: 70px;
+    max-width: 50px;
     margin: 1px;
     padding: 10px;  
 }
