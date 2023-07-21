@@ -54,6 +54,7 @@ header > h1 {
     padding: 5px;
     font-family: var(--fontBI);
     font-variant: small-caps;
+    font-size: 2em;
 }
 
 header > p {
@@ -98,6 +99,25 @@ main {
     margin: auto;
     border-radius: 10px;
     padding: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    font-family: var(--fontBI);
+    font-size: 1.7em;
+}
+main > h3 {
+    font-family: 'GaramondI';
+    font-size: 1.25em;
+}
+
+main > ol {
+	list-style-type: disc;
+    padding: 3px 50px;
+}
+main > ol > li{
+	color: #000;
+	font-family: Georgia;
 }
 
 table {
