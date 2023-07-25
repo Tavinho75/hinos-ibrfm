@@ -69,28 +69,42 @@ header > h1 > a {
     font-family: var(--fontBI);
 }
 
-nav {
-    text-align: center;
-    background-color: var(--topo);
-    height: 40px;
-    margin-bottom: 5px;
-}
-
-nav > a {
-    text-decoration: none;
+span#burguer {
     color: white;
+    display: block;
     padding: 10px;
-    margin: 5px;
-    background-color: var(--link);
+    text-align: center;
+    cursor: pointer;
 }
 
-nav > a:hover {
-    text-decoration: none;
+span#burguer:hover {
+    display: block;
     padding: 10px;
-    margin: 5px;
+    text-align: center;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--link);
+    color: white;
+    margin: 2px;
+    font-family: 'GaramondR';
+}
+
+menu > ul > li > a:hover {
     background-color: var(--lhover);
     box-shadow: 1px 1px rgba(0, 0, 0, 0.300);
-    transition-duration: 0.5s;
 }
 
 main {
@@ -121,19 +135,19 @@ main > ol > li{
 }
 
 table {
-    width: 650px;
+    width: 98%;
     margin: auto;
     padding: 10px;
     text-align: center;
+    border-spacing: 15px;
 }
 
-td {
-    max-width: 50px;
-    margin: 1px;
+tr {
+    width: 50px;
     padding: 10px;  
 }
 
-td > p > a {
+tr > td > a {
     color: black;
     text-decoration: none;
 }

@@ -1,12 +1,37 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 900px) {
+:root {
+    --fundo: #a2ae86;
+    --topo: #697449;
+    --link: #788B4B;
+    --lhover: #79836d;
+    --fontBI: 'GaramondBI'
+}
 
-    table {
-        max-width: 650px;
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
     }
 
-    main {
-        max-width: 750px;
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        color: white;
+        text-decoration: none;
+        background-color: var(--link);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    menu > ul > li > a {
+        color: white;
+        text-decoration: none;
+        background-color: var(--link);
     }
 }
