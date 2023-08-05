@@ -115,10 +115,8 @@ main {
     padding: 10px;
 }
 
-main > ol > li > a {
-    text-decoration: none;
-    color: black;
-    font-family: Georgia;
+main > h1 {
+    text-align: center;
 }
 
 main > h2 {
@@ -138,6 +136,12 @@ main > ol {
 main > ol > li{
 	color: #000;
 	font-family: Georgia;
+}
+
+main > ol > li > a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia;
 }
 
 table {
