@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinos</title>
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Estilos/principal.css">
+    <link rel="stylesheet" href="../Estilos/celular.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><a href="../index.html">Igreja Batista Reformada de Francisco Morato</a></h1>
+        <p>Cantor Cristão, Harpa Cristã e Salmos</p>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="https://batistareformadafm.org/">Home</a></li>
+            <li><a href="../CantorCristao/CC.html">Cantor Cristão</a></li>
+            <li><a href="../HarpaCrista/HC.html">Harpa Cristã</a></li>
+            <li><a href="Salmos.html">Salmos</a></li>
+        </ul>
+    </menu>
+    </header>
+    <main>
+        <H1>Salmo 84b</H1>
+         <br>
+        <p>
+            Javé, Deus dos exércitos, oh, quão amáveis são <br>
+            As tuas tendas, pelas quais meu ser suspiros dá <br>
+            E o meu vigor se esvai pelos átrios do Senhor <br>
+            Ao Deus vivente clamam minha carne e coração
+        </p>
+         <br>
+        <p>
+            Até o pardal pra si achou a casa pra morar, <br>
+            E a andorinha encontrou um ninho para si <br>
+            Que acolha os seus filhotes. Achei o teu altar. <br>
+            Ó Senhor dos exércitos, meu Rei, meu Deus tu és
+        </p>
+         <br>
+        <p>
+            Os que habitam o lugar da casa do Senhor <br>
+            Continuamente louvam Deus e bem felizes são <br>
+            Feliz é o varão cuja força está em ti <br>
+            E tem no coração caminho reto, puro e bom
+        </p>
+         <br>
+        <p>
+            O qual passando pelo vale estéril, seco e ruim <br>
+            Faz dele manancial; e as chuvas bênçãos vêm trazer <br>
+            De força em força, vão bem diante do Senhor, <br>
+            Aparecendo cada um no monte de Sião
+        </p>
+         <br>
+        <p>
+            Senhor, Deus dos exércitos, escuta a oração <br>
+            Ó Deus de Israel, concede ouvidos para mim <br>
+            E volta o teu olhar, nosso escudo e proteção <br>
+            Contempla, ó Senhor, o rosto do Ungido teu.
+        </p>
+         <br>
+        <p>
+            Um dia nos teus átrios vale muito mais que mil <br>
+            É bem melhor na porta estar da casa do meu Deus <br>
+            Do que permanecer junto às tendas do homem mau, <br>
+            Pois o Senhor Javé é nosso Sol e proteção
+        </p>
+         <br>
+        <p>
+            Dá graça e glória o Senhor, pois Ele nenhum bem <br>
+            Sonega aos homens que estão trilhando a retidão <br>
+            Javé, Senhor das hostes, feliz é o homem que <br>
+            Em ti confia para sempre, ó Deus de Israel!
+        </p>
+    </main>
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

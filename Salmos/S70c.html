@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinos</title>
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Estilos/principal.css">
+    <link rel="stylesheet" href="../Estilos/celular.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><a href="../index.html">Igreja Batista Reformada de Francisco Morato</a></h1>
+        <p>Cantor Cristão, Harpa Cristã e Salmos</p>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="https://batistareformadafm.org/">Home</a></li>
+            <li><a href="../CantorCristao/CC.html">Cantor Cristão</a></li>
+            <li><a href="../HarpaCrista/HC.html">Harpa Cristã</a></li>
+            <li><a href="Salmos.html">Salmos</a></li>
+        </ul>
+    </menu>
+    </header>
+    <main>
+        <H1>Salmo 70c</H1> <br>
+        <br>
+        <p>
+            Praza-te,_ó Deus, em me livrar <br>
+            Sê pressuroso em me_acudir <br>
+            Tenha vergonha_e confusão <br>
+            Quem minha vida quer tirar. <br>
+            Envergonhado, volte_atrás <br>
+            Quem no meu mal sente prazer. <br>
+            Vergonha faça recuar <br>
+            Quem diz "Bem-feito, muito bem"
+        </p>
+        <br>
+        <p>
+            Quem te procura, ó Senhor, <br>
+            Folgue_e jubile sempre_em ti. <br>
+            "Magnificado seja Deus!", <br>
+            Diga quem ama_a salvação. <br>
+            Necessitado_e pobre sou <br>
+            Ó Deus te_apressa_em me valer <br>
+            Amparo meu, Libertador <br>
+            Não te detenhas, ó Senhor.
+        </p>
+
+
+
+
+    </main>
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
