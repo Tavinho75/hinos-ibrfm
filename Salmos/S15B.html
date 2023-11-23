@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmo 15B</title>
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Estilos/principal.css">
+    <link rel="stylesheet" href="../Estilos/celular.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><a href="../index.html">Igreja Batista Reformada de Francisco Morato</a></h1>
+        <p>Cantor Cristão, Harpa Cristã e Salmos</p>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="https://batistareformadafm.org/">Home</a></li>
+            <li><a href="../CantorCristao/CC.html">Cantor Cristão</a></li>
+            <li><a href="../HarpaCrista/HC.html">Harpa Cristã</a></li>
+            <li><a href="../HCC.html">HCC</a></li>
+            <li><a href="Salmos.html">Salmos</a></li>
+        </ul>
+    </menu>
+    </header>
+    <main>
+        <H1>Salmo 15B</H1> <br>
+        <p>
+            Quem vai morar, Senhor, no teu santo templo? <br>
+            Quem há de residir no teu monte, ó Deus? <br>
+            Quem vive em retidão, tem justo proceder <br>
+            Só a verdade diz no seu coração
+        </p>
+         <br>
+        <p>
+            Não vive a difamar, não faz mal a outrem, <br>
+            Ao seu vizinho não quer injuriar <br>
+            Despreza o homem vil, honra ao que teme a Deus, <br>
+            Jura com perda até, mas não volta atrás
+        </p>
+         <br>
+        <p>
+            O seu dinheiro não cede com usura, <br>
+            Suborno algum jamais pensa receber <br>
+            Para incriminar quem inocente é <br>
+            Quem assim proceder não se abalará
+        </p>
+    </main>
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
