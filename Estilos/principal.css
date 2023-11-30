@@ -102,6 +102,10 @@ menu > ul > li > a {
     font-family: 'GaramondR';
 }
 
+sup {
+    font-weight: bold;
+}
+
 menu > ul > li > a:hover {
     background-color: var(--lhover);
     box-shadow: 1px 1px rgba(0, 0, 0, 0.300);
@@ -115,8 +119,8 @@ main {
     padding: 10px;
 }
 
-sup {
-    font-weight: bold;
+p.bis {
+    font-style: italic;
 }
 
 main > h1 {

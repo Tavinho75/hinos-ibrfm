@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmo 100 - ARA</title>
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Estilos/principal.css">
+    <link rel="stylesheet" href="../Estilos/celular.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><a href="../index.html">Igreja Batista Reformada de Francisco Morato</a></h1>
+        <p>Cantor Cristão, Harpa Cristã e Salmos</p>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="https://batistareformadafm.org/">Home</a></li>
+            <li><a href="../CantorCristao/CC.html">Cantor Cristão</a></li>
+            <li><a href="../HarpaCrista/HC.html">Harpa Cristã</a></li>
+            <li><a href="../HCC.html">HCC</a></li>
+            <li><a href="Salmos.html">Salmos</a></li>
+        </ul>
+    </menu>
+    </header>
+    <main>
+        <H1>Salmo 100 - ARA</H1> <br>
+        <p>
+            Celebrai com júbilo ao Senhor, todas as terras. <br>
+            Servi ao Senhor com alegria, <br>
+            apresentai-vos diante dele com cântico. <br>
+            Sabei que o Senhor é Deus;
+        </p>
+        <p class="bis">
+            foi ele quem nos fez, e dele somos; <br>
+            somos o seu povo e rebanho do seu pastoreio.
+        </p>
+         <br>
+        <p>
+            Entrai por suas portas com ações de graças <br>
+            e nos seus átrios, com hinos de louvor; <br>
+            rendei-lhe graças e bendizei-lhe o nome. <br>
+            Porque o Senhor é bom,
+        </p>
+        <p class="bis">
+            a sua misericórdia dura para sempre, <br>
+            e, de geração em geração, a sua fidelidade.
+        </p>
+    </main>
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
